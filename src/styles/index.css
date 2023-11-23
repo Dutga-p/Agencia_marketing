@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: 'orange-button';
+    border-bottom: 1.5px solid transparent; /* Establece un borde inicial transparente */
+    transition: border-color 0.3s ease; /* Añade una transición para un efecto suave */
+  }
+  
+  /* Agrega estilos para el enlace activo */
+.active {
+    border-bottom: 2px solid orange; /* Cambia el color del borde cuando el enlace está activo */
+}
