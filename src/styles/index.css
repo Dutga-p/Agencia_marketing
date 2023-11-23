@@ -13,3 +13,27 @@
 .active {
     border-bottom: 2px solid orange; /* Cambia el color del borde cuando el enlace está activo */
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  z-index: -1;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #d8d8d8;
+opacity: 0.7;
+border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb:hover{
+background: #c9c9c9;
+opacity: 1;
+border-radius: 10px;
+}
