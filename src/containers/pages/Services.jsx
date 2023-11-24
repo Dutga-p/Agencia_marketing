@@ -10,7 +10,7 @@ function Services() {
         <h1 className="text-4xl text-center font-bold mb-8">Nuestros Servicios</h1>
         <br/>
         <div className="serviciosT">
-          <h2 className="text-3xl  text-black font-bold mb-8"> <span className=" border-b-4 border-orange-button"> Reparación de Motor </span></h2>
+          <h2 className="text-3xl  text-black font-bold mb-8"> <span className=" border-4 border-spacing-1 rounded-lg p-2 border-orange-button"> Reparación de Motor </span></h2>
           <p>
             Nuestro equipo altamente capacitado y experimentado se especializa en la reparación
             integral de motores. Desde diagnósticos precisos hasta soluciones efectivas, estamos

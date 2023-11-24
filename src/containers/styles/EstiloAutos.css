@@ -1,0 +1,18 @@
+.InfoVentas{
+    width: 100%;
+    max-width: auto; /* Ancho máximo del formulario */
+    margin: auto; /* Centrar el formulario en la página */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    border-radius: 8px; /* Bordes redondeados */
+}
+.icon{
+    width: 20%;
+    max-width: auto; /* Ancho máximo del formulario */
+    margin: auto; /* Centrar el formulario en la página */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 5px 5px 15px black; /* Sutil sombra */
+    border-radius: 8px; /* Bordes redondeados */
+}
