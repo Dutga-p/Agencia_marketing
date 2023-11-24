@@ -48,7 +48,7 @@ export default function IncentivosConcesionario() {
             {incentivos.map((incentivo) => (
               <div key={incentivo.nombre} className="sm:flex lg:block">
                 <div className="sm:flex-shrink-0">
-                  <img className="h-16 w-16" src={incentivo.imagenSrc} alt="" />
+                  <img className="h-16 w-16 text-orange-button" src={incentivo.imagenSrc} alt="" />
                 </div>
                 <div className="mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
                   <h3 className="text-lg font-medium text-gray-900">{incentivo.nombre}</h3>

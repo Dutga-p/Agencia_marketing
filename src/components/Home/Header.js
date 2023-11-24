@@ -22,14 +22,14 @@ function Header(){
                     </span>
                   </h1>
                 </div>    
-                <ul className='flex gap-8 items-center justify-center py-12' >
+                <ul className='flex gap-8 items-center justify-center py-12 space-x-24' >
                   <li className='inline-flex border-b-2 border-transparent hover:border-orange-button'>
-                    <Link to='/servicios' className="mt-6 mr-10 text-xl font-medium leading-10 text-gray-700 sm:text-center">
+                    <Link to='/servicios' className="mt-6 text-xl font-medium leading-10 text-gray-700 sm:text-center">
                       Servicios
                     </Link>
                   </li>
                   <li className='inline-flex border-b-2 border-transparent hover:border-orange-button'>
-                    <Link to='/autos' className="mt-6 mr-10 text-xl font-medium leading-8 text-gray-700 sm:text-center">Autos</Link>
+                    <Link to='/autos' className="mt-6 text-xl font-medium leading-8 text-gray-700 sm:text-center">Autos</Link>
                   </li>
                   <li className='inline-flex border-b-2 border-transparent hover:border-orange-button'>
                     <Link to='/repuestos' className="mt-6 text-xl font-medium leading-8 text-gray-700 sm:text-center">Repuestos</Link>

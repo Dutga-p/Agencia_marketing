@@ -34,10 +34,10 @@
   align-items: center;
   text-align: center;
   margin-bottom: 20px; /* Aumenté el espacio entre etiquetas */
-  border-radius: 30px; /* Aumenté el radio de borde */
+  border-radius: 20px; /* Aumenté el radio de borde */
   padding: 0 20px; /* Aumenté el padding */
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px #ff561e;
 }
 
 .form label input {
@@ -46,7 +46,6 @@
   margin-right: 0;
   padding: 15px; /* Aumenté el padding */
   background-color: #fff;
-  border: none;
   border-radius: 20px; /* Aumenté el radio de borde */
   color: #333;
   font-size: 1.2rem; /* Aumenté el tamaño de la fuente */
@@ -108,6 +107,20 @@ h2 {
   border: 2px solid #ff561e;
   padding: 30px; /* Aumenté el padding */
   margin-top: 50px; /* Aumenté el espacio superior */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: normal;
+  font-size: x-large;
+}
+
+.serviciosT{
+  background-color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  color: #000;
+  border-radius: 20px; /* Aumenté el radio de borde */
+  padding: 30px; /* Aumenté el padding */
+  margin-top: 10px; /* Aumenté el espacio superior */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-weight: normal;
   font-size: x-large;

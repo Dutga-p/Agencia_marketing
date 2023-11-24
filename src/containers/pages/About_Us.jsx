@@ -6,13 +6,13 @@ import imagen1 from "assets/img/repuestos.jpg";
 import imagen2 from "assets/img/reparacion.jpg";
 import imagen3 from "assets/img/img3.jpg";
 import 'containers/styles/EstiloInicio.css';
-import Lightbox from 'react-image-lightbox';
-import 'react-image-lightbox/style.css';
+import { Lightbox } from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
 
 function AboutMe() {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
-  const images = [imagen3, imagen1, imagen2];
+  const images = [imagen3, imagen1, imagen2].map(src => ({ src }));
 
   const openLightbox = (index) => {
     setPhotoIndex(index);
@@ -57,7 +57,7 @@ function AboutMe() {
           {images.map((image, index) => (
             <img
               key={index}
-              src={image}
+              src={image.src}
               alt={`Imagen ${index + 1}`}
               className="img-galeria"
               onClick={() => openLightbox(index)}
@@ -65,18 +65,13 @@ function AboutMe() {
             />
           ))}
         </div>
-        {lightboxOpen && (
           <Lightbox
-            mainSrc={images[photoIndex]}
-            nextSrc={images[(photoIndex + 1) % images.length]}
-            prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-            onCloseRequest={closeLightbox}
-            onMovePrevRequest={() => setPhotoIndex((photoIndex + images.length - 1) % images.length)}
-            onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % images.length)}
+            open={lightboxOpen}
+            close={() => setLightboxOpen(false)}
+            slides={images}
+            currentIndex={photoIndex}
           />
-        )}
-      </div>
-
+        </div>
       <Footer />
     </Layout>
   );

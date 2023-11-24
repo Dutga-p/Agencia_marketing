@@ -20,7 +20,7 @@ module.exports = {
           'textDecoration':'underline',
           'text-decoration-color': '#ff561e',
           'transition-duration': '300 ease-in-out',
-          'borderBottom': '1.5px solid #ff561e',
+          'borderBottom': '2px solid #ff561e',
         },
       }
       addUtilities(estendUnderline)

@@ -1,0 +1,108 @@
+/* Estilos base para el formulario */
+.contact-form {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 40px auto; /* Centrar el formulario en la página */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  .contact-form h2 {
+    font-size: 2.5rem;
+    color: #333; /* Texto negro */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la lista de formularios */
+  .contact-form form ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .contact-form form li {
+    margin-bottom: 15px;
+    overflow: hidden;
+    display:block;
+    position: relative;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+    clear: both;
+    
+  }
+  
+  .contact-form form li.half {
+    width: calc(50% - 7.5px);
+    display: inline-block;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .contact-form form input[type='text'],
+  .contact-form form input[type='email']{
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid #ccc; /* Borde gris claro */
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+  .contact-form form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box;
+    transition: border-color 0.3s; /* Agregar transición al color del borde */
+  }
+  
+  /* Cambiar el color del borde al hacer foco en el campo de entrada */
+  .contact-form form input[type='text']:focus,
+  .contact-form form input[type='email']:focus,
+  .contact-form form textarea:focus {
+    border-color: #ff561e; /* Borde naranja al hacer clic */
+  }
+  
+  /* Estilos para el botón de envío */
+  .contact-form form input[type='submit'] {
+    background-color: #ff561e; /* Fondo naranja */
+    color: #fff; /* Texto blanco */
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.4s; /* Agregar transición al color de fondo */
+  }
+  
+  /* Cambiar el color de fondo del botón al hacer clic */
+  .contact-form form input[type='submit']:hover {
+    background-color: #333; /* Fondo negro al hacer clic */
+  }
+  
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+    background-color: #25d366; /* Color verde de WhatsApp */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.whatsapp-icon {
+    display: flex;
+    margin: auto;
+    height: 20px;
+  }
