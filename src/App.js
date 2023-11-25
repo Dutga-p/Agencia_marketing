@@ -31,9 +31,6 @@ function App() {
         </Routes>
       </Router>
     </Provider>
-    // <div>
-    //   hola
-    // </div>
   );
 }
 

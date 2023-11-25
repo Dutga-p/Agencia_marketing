@@ -7,12 +7,36 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
     border-radius: 8px; /* Bordes redondeados */
 }
-.icon{
-    width: 20%;
-    max-width: auto; /* Ancho máximo del formulario */
-    margin: auto; /* Centrar el formulario en la página */
+
+.icon {
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
     padding: 20px;
-    background-color: #fff; /* Fondo blanco */
-    box-shadow: 5px 5px 15px black; /* Sutil sombra */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.icon h2 {
+    font-size: 2rem; /* Tamaño de fuente más manejable en pantallas pequeñas */
+}
+
+.icon img {
+    width: 90%; /* Haz que la imagen ocupe el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 1rem; /* Añade espacio entre el texto y la imagen */
+}
+
+/* Regla de medios para ajustar el padding en pantallas pequeñas */
+@media (max-width: 600px) {
+    .icon {
+        padding: 15px;
+    }
+    .icon img {
+        width: 85%;
+        min-width: 200px;
+    }
+
 }

@@ -50,7 +50,7 @@ function Autos() {
                 <div className="icon">
                   <h2 className="text-4xl text-black font-bold ml-4">Toyota</h2>
                   <Link to="/toyota">
-                    <img src={Toyota} alt="Toyota" className="cursor-pointer ml-10 w-36 h-32" />
+                    <img src={Toyota} alt="Toyota" className="cursor-pointer ml-6 w-36 h-28" />
                   </Link>
                 </div>
                 <br />

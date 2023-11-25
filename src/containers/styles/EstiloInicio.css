@@ -100,16 +100,48 @@ h2 {
 
 .Tarjeta{
   background-color: white;
-  margin-left: 250px;
-  margin-right: 250px;
   color: #000;
   border-radius: 20px; /* Aumenté el radio de borde */
   border: 2px solid #ff561e;
-  padding: 30px; /* Aumenté el padding */
-  margin-top: 50px; /* Aumenté el espacio superior */
+  padding: 20px; /* Aumenté el padding */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-weight: normal;
   font-size: x-large;
+  text-align: center;
+}
+
+.Tarjeta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.Tarjeta p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.Tarjeta a {
+  font-size: 1.5rem;
+  color: #ff561e; /* Color naranja personalizado */
+}
+
+/* Reglas de medios para hacerlo responsive */
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Tarjeta {
+    padding: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .serviciosT{
