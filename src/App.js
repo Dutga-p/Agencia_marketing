@@ -10,6 +10,11 @@ import Sucursales from "containers/pages/Sucursales";
 import InicioSesion from "containers/pages/InicioSension";
 import Autos from "containers/pages/Autos";
 import Repuestos from "containers/pages/Repuestos";
+import Gerente1 from "containers/pages/VistaUsuarios/Gerente/Gerente";
+import JefeTaller from "containers/pages/VistaUsuarios/JefeTaller/JefeTaller";
+import Vendedores from "containers/pages/VistaUsuarios/Vendedores/Vendedor";
+import Clientes from "containers/pages/VistaUsuarios/Clientes/Clientes";
+import Gerente from "containers/pages/VistaUsuarios/Gerente/Gerente";
 
 function App() {
   return (
@@ -28,9 +33,16 @@ function App() {
           <Route path="/inicioSecion" element={< InicioSesion />} />
           <Route path="/autos" element={< Autos />} />
           <Route path="/repuestos" element={< Repuestos />} />
+          <Route path="/gerente" element={< Gerente />} />
+          <Route path="/jefeTaller" element={< JefeTaller />} />
+          <Route path="/vendedores" element={< Vendedores />} />
+          <Route path="/clientes" element={< Clientes />} />
         </Routes>
       </Router>
     </Provider>
+    // <div>
+    //   hola
+    // </div>
   );
 }
 
