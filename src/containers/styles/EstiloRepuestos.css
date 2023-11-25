@@ -1,0 +1,8 @@
+.pRepuestos{
+    font-size: x-large;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 25px;
+    width: auto;
+    max-width: 100em;
+}

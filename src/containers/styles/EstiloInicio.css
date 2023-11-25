@@ -1,0 +1,159 @@
+.form-information {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.form-information-childs {
+  padding: 0 50px; /* Aumenté el padding para mayor espacio */
+}
+
+.form-information-childs h2 {
+  color: #333;
+  font-size: 2.5rem; /* Aumenté el tamaño de la fuente */
+}
+
+.form-information-childs p {
+  color: #555;
+  font-size: 1.2rem; /* Aumenté el tamaño de la fuente */
+}
+
+.form {
+  margin: 30px 0 0 0;
+}
+
+.form label {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; /* Aumenté el espacio entre etiquetas */
+  border-radius: 20px; /* Aumenté el radio de borde */
+  padding: 0 20px; /* Aumenté el padding */
+  background-color: #fff;
+  box-shadow: 0 1px 2px #ff561e;
+}
+
+.form label input {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 0;
+  padding: 15px; /* Aumenté el padding */
+  background-color: #fff;
+  border-radius: 20px; /* Aumenté el radio de borde */
+  color: #333;
+  font-size: 1.2rem; /* Aumenté el tamaño de la fuente */
+}
+
+.form label svg {
+  color: #a7a7a7;
+  font-size: 1.5rem; /* Aumenté el tamaño de la fuente */
+}
+
+.form input[type="submit"] {
+  background-color: #ff561e;
+  color: #fff;
+  border-radius: 20px; /* Aumenté el radio de borde */
+  border: none;
+  padding: 15px 20px; /* Aumenté el padding */
+  cursor: pointer;
+  margin-top: 20px; /* Aumenté el espacio superior */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; /* Aumenté el espacio inferior */
+}
+
+.form input[type="submit"]:hover {
+  background-color: black;
+}
+
+.img-galeria {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 4em; /* Aumenté el tamaño de la fuente */
+  margin-bottom: 30px; /* Aumenté el espacio inferior */
+  color: #ff561e;
+}
+
+.pa{
+  background-color: white;
+  margin: 50px;
+  color: #000;
+  border-radius: 20px; /* Aumenté el radio de borde */
+  padding: 30px; /* Aumenté el padding */
+  margin-top: 10px; /* Aumenté el espacio superior */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: normal;
+  font-size: x-large;
+}
+
+.Tarjeta{
+  background-color: white;
+  color: #000;
+  border-radius: 20px; /* Aumenté el radio de borde */
+  border: 2px solid #ff561e;
+  padding: 20px; /* Aumenté el padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: normal;
+  font-size: x-large;
+  text-align: center;
+}
+
+.Tarjeta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.Tarjeta p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.Tarjeta a {
+  font-size: 1.5rem;
+  color: #ff561e; /* Color naranja personalizado */
+}
+
+/* Reglas de medios para hacerlo responsive */
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Tarjeta {
+    padding: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.serviciosT{
+  background-color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  color: #000;
+  border-radius: 20px; /* Aumenté el radio de borde */
+  padding: 30px; /* Aumenté el padding */
+  margin-top: 10px; /* Aumenté el espacio superior */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: normal;
+  font-size: x-large;
+}
