@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 function Header(){
   return(
     <main>
-        <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+        <div className="relative py-9 px-6 lg:px-8">
+          <div className="mx-auto max-w-5xl pt-20 pb-32 sm:pt-48 sm:pb-40">
             <div>
               <div>
                 <div className="text-center">
                   <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight">
                     <span className="text-orange-button">
                       <Typewriter
-                        words={[' Venta de Vehículos', 'Venta de Repuestos', 'Servicios']}
+                        words={[' Venta de Vehículos', 'Venta de Repuestos', 'Servicios de reparación']}
                         loop={0}
                         cursor
                         cursorStyle='_'
@@ -22,17 +22,17 @@ function Header(){
                     </span>
                   </h1>
                 </div>    
-                <ul className='flex gap-8 items-center justify-center py-12' >
+                <ul className='flex gap-8 items-center justify-center py-12 space-x-24' >
                   <li className='inline-flex border-b-2 border-transparent hover:border-orange-button'>
-                    <Link to='/servicios' className="mt-6 text-lg font-medium leading-8 text-gray-700 sm:text-center">
+                    <Link to='/servicios' className="mt-6 text-xl font-medium leading-10 text-gray-700 sm:text-center">
                       Servicios
                     </Link>
                   </li>
                   <li className='inline-flex border-b-2 border-transparent hover:border-orange-button'>
-                    <Link to='/autos' className="mt-6 text-lg font-medium leading-8 text-gray-700 sm:text-center">Autos</Link>
+                    <Link to='/autos' className="mt-6 text-xl font-medium leading-8 text-gray-700 sm:text-center">Autos</Link>
                   </li>
                   <li className='inline-flex border-b-2 border-transparent hover:border-orange-button'>
-                    <Link to='/repuestos' className="mt-6 text-lg font-medium leading-8 text-gray-700 sm:text-center">Repuestos</Link>
+                    <Link to='/repuestos' className="mt-6 text-xl font-medium leading-8 text-gray-700 sm:text-center">Repuestos</Link>
                   </li>
                 </ul>
               </div>

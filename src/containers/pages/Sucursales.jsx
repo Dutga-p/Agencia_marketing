@@ -1,6 +1,8 @@
 import Footer from "../../components/navigation/Footer";
 import Navbar from "../../components/navigation/Navbar";
 import Layout from "../../hocs/layouts/Layout";
+import 'containers/styles/EstiloInicio.css';
+
 
 function Sucursales() {
   const sucursales = [
@@ -30,12 +32,12 @@ function Sucursales() {
   return (
     <Layout>
       <Navbar />
-      <div className="text-center pt-28">
+      <div className="bg-white shadow-navbar text-center pt-28">
         <h1 className="text-6xl font-bold mb-8">Nuestras Sucursales</h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-8">
           {sucursales.map((sucursal, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-              <h2 className="text-4xl font-semibold mb-4">{sucursal.nombre}</h2>
+            <div key={index} className="Tarjeta">
+              <h2 className="text-4xl text-black font-semibold mb-4">{sucursal.nombre}</h2>
               <p className="text-2xl text-gray-600 mb-4">{sucursal.direccion}</p>
               <p className="text-xl text-gray-700">{sucursal.descripcion}</p>
               <br />
