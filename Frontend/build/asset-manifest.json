@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c96351f.css",
+    "main.js": "/static/js/main.b29d6956.js",
+    "static/media/reparacion.jpg": "/static/media/reparacion.978d71f1125e1205532d.jpg",
+    "static/media/Ford.png": "/static/media/Ford.0ee535d7f526ff260c1e.png",
+    "static/media/repuestos.jpg": "/static/media/repuestos.a3a81c874d736f846b7d.jpg",
+    "static/media/Honda.jpg": "/static/media/Honda.c7565d77eb813462fa3d.jpg",
+    "static/media/Toyota.jpg": "/static/media/Toyota.9b0a986e7626cf4cdfae.jpg",
+    "static/media/img3.jpg": "/static/media/img3.5d81f1a9c4cebd360999.jpg",
+    "index.html": "/index.html",
+    "main.5c96351f.css.map": "/static/css/main.5c96351f.css.map",
+    "main.b29d6956.js.map": "/static/js/main.b29d6956.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c96351f.css",
+    "static/js/main.b29d6956.js"
+  ]
+}
